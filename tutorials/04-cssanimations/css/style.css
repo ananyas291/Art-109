@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes stretching {
+    0% {
+        width: 100px;
+    }
+    100% {
+        width: 200px;
+    }
+}
+
+.button {
+    display: inline-block;  
+    background-color: lightblue;  
+    padding: 10px 20px;  
+    text-decoration: none; /* Removes underline */
+    color: black;  /* Text color */
+    font-size: 18px; 
+    border-radius: 5px;  /* Rounded corners */
+    animation-name: stretching;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  /* Loops animation */
+    animation-timing-function: ease-in-out;
+}
+
+  
+  

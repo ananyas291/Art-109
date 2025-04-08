@@ -18,13 +18,13 @@
     display: inline-block;  
     background-color: lightblue;  
     padding: 10px 20px;  
-    text-decoration: none; /* Removes underline */
-    color: black;  /* Text color */
+    text-decoration: none; 
+    color: black;  
     font-size: 18px; 
-    border-radius: 5px;  /* Rounded corners */
+    border-radius: 5px;  
     animation-name: stretching;
     animation-duration: 2s;
-    animation-iteration-count: infinite;  /* Loops animation */
+    animation-iteration-count: infinite; 
     animation-timing-function: ease-in-out;
 }
 

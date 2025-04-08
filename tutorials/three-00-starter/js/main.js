@@ -40,7 +40,7 @@ function init() {
 
     
     const geometry = new THREE.BoxGeometry(1, 1, 1);
-    const texture = new THREE.TextureLoader().load('../textures/texture-image.jpg');
+    const texture = new THREE.TextureLoader().load('textures/texture-image.jpg');
  
     const material = new THREE.MeshBasicMaterial({ map: texture });
     cube = new THREE.Mesh(geometry, material);
